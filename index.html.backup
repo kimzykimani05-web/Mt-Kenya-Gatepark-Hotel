@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mt Kenya Gatepark Hotel - Your Gateway to Mount Kenya</title>
+    <meta name="description" content="Experience luxury hospitality at Mt Kenya Gatepark Hotel. Your gateway to Mount Kenya offers elegant accommodation, unforgettable mountain experiences, and warm hospitality in Naro Moru, Kenya.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Mt Kenya Gatepark Hotel</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#booking" class="btn-primary">Book Now</a></li>
+            </ul>
+            <div class="mobile-menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Experience the Gateway to Mount Kenya</h1>
+            <p>Discover warm hospitality, elegant accommodation and unforgettable mountain experiences in Naro Moru.</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="btn-primary">Book Your Stay</a>
+                <a href="#rooms" class="btn-secondary">Explore Rooms</a>
+            </div>
+            <div class="scroll-indicator">
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Booking Widget -->
+    <section id="booking" class="quick-booking">
+        <div class="container">
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="checkin">Check In</label>
+                    <input type="date" id="checkin" name="checkin">
+                </div>
+                <div class="form-group">
+                    <label for="checkout">Check Out</label>
+                    <input type="date" id="checkout" name="checkout">
+                </div>
+                <div class="form-group">
+                    <label for="guests">Guests</label>
+                    <select id="guests" name="guests">
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="room-type">Room Type</label>
+                    <select id="room-type" name="room-type">
+                        <option value="deluxe">Deluxe Mountain Room</option>
+                        <option value="executive">Executive Suite</option>
+                        <option value="family">Family Room</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-primary">Search Availability</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Trust Metrics -->
+    <section class="trust-metrics">
+        <div class="container">
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <h3>15+</h3>
+                    <p>Years of Hospitality</p>
+                </div>
+                <div class="metric-card">
+                    <h3>3000+</h3>
+                    <p>Guests Hosted</p>
+                </div>
+                <div class="metric-card">
+                    <h3>24/7</h3>
+                    <p>Guest Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1564056333669-3ec3331c4d7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Mt Kenya Gatepark Hotel exterior">
+                </div>
+                <div class="about-text">
+                    <h2>Where Comfort Meets Nature</h2>
+                    <p>Located near Mount Kenya National Park and the Naro Moru Gate, Mt Kenya Gatepark Hotel offers a peaceful retreat where luxury harmonizes with the wilderness. Our hotel is designed to provide guests with an authentic Kenyan mountain experience, combining modern comforts with traditional hospitality.</p>
+                    <a href="#contact" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Rooms -->
+    <section id="rooms" class="rooms">
+        <div class="container">
+            <h2 class="section-title">Featured Rooms</h2>
+            <div class="rooms-grid">
+                <!-- Deluxe Mountain Room -->
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1582719478250-5d1d92722481?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Deluxe Mountain Room">
+                    <div class="room-info">
+                        <h3>Deluxe Mountain Room</h3>
+                        <p>Elegantly appointed room with breathtaking views of Mount Kenya, featuring premium bedding and modern amenities.</p>
+                        <div class="amenities">
+                            <span>• King Bed</span>
+                            <span>• Mountain View</span>
+                            <span>• Fireplace</span>
+                            <span>• Luxury Bath</span>
+                        </div>
+                        <div class="room-pricing">
+                            <span class="price">From $180/night</span>
+                        </div>
+                        <div class="room-actions">
+                            <a href="#" class="btn-outline">View Details</a>
+                            <a href="#booking" class="btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Executive Suite -->
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1590492395205-06b90e9d543d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Executive Suite">
+                    <div class="room-info">
+                        <h3>Executive Suite</h3>
+                        <p>Spacious suite with separate living area, panoramic windows, and luxurious furnishings for the discerning traveler.</p>
+                        <div class="amenities">
+                            <span>• King Bed</span>
+                            <span>• Sitting Area</span>
+                            <span>• Kitchenette</span>
+                            <span>• Premium Bath</span>
+                        </div>
+                        <div class="room-pricing">
+                            <span class="price">From $280/night</span>
+                        </div>
+                        <div class="room-actions">
+                            <a href="#" class="btn-outline">View Details</a>
+                            <a href="#booking" class="btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Family Room -->
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Family Room">
+                    <div class="room-info">
+                        <h3>Family Room</h3>
+                        <p>Accommodating families with multiple bed configurations, child-friendly amenities, and connecting room options.</p>
+                        <div class="amenities">
+                            <span>• Two Queen Beds</span>
+                            <span>• Sofa Bed</span>
+                            <span>• Children's Amenities</span>
+                            <span>• Connecting Options</span>
+                        </div>
+                        <div class="room-pricing">
+                            <span class="price">From $220/night</span>
+                        </div>
+                        <div class="room-actions">
+                            <a href="#" class="btn-outline">View Details</a>
+                            <a href="#booking" class="btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mount Kenya Experience -->
+    <section class="experience">
+        <div class="container">
+            <div class="experience-content">
+                <div class="experience-image">
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Mount Kenya sunrise">
+                </div>
+                <div class="experience-text">
+                    <h2>Wake Up to the Beauty of Mount Kenya</h2>
+                    <p>Wake up to breathtaking views of Africa's second-highest mountain. Breathe in the fresh mountain air as you embark on guided nature walks, photography tours, or simply relax on your private balcony. Our location offers the perfect balance of adventure and peacefulness, with authentic local hospitality that makes every stay memorable.</p>
+                    <a href="#experiences" class="btn-primary">Explore Experiences</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiences and Activities -->
+    <section id="experiences" class="activities">
+        <div class="container">
+            <h2 class="section-title">Experiences and Activities</h2>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <img src="https://images.unsplash.com/photo-1551632809-550e3a03c88d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Mountain Excursions">
+                    <h3>Mountain Excursions</h3>
+                    <p>Guided treks to Mount Kenya's scenic points and alpine zones.</p>
+                </div>
+                <div class="activity-card">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Nature Walks">
+                    <h3>Nature Walks</h3>
+                    <p>Explore the rich biodiversity of the montane forest with expert guides.</p>
+                </div>
+                <div class="activity-card">
+                    <img src="https://images.unsplash.com/photo-1525334607545-878e691a0f55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Cycling">
+                    <h3>Cycling</h3>
+                    <p>Mountain biking trails through picturesque landscapes and local villages.</p>
+                </div>
+                <div class="activity-card">
+                    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Photography Tours">
+                    <h3>Photography Tours</h3>
+                    <p>Capture stunning landscapes and wildlife with professional photography guides.</p>
+                </div>
+                <div class="activity-card">
+                    <img src="https://images.unsplash.com/photo-1565299624946-5cf86577650e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Local Cuisine">
+                    <h3>Local Cuisine</h3>
+                    <p>Savor authentic Kenyan dishes prepared with fresh, locally sourced ingredients.</p>
+                </div>
+                <div class="activity-card">
+                    <img src="https://images.unsplash.com/photo-1533993520323-6cb1f7e94f6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Bonfire Evenings">
+                    <h3>Bonfire Evenings</h3>
+                    <p>Enjoy traditional storytelling and music under the African sky.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Mount Kenya landscape">
+                <img src="https://images.unsplash.com/photo-1564056333669-3ec3331c4d7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Hotel exterior">
+                <img src="https://images.unsplash.com/photo-1582719478250-5d1d92722481?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Hotel interior lounge">
+                <img src="https://images.unsplash.com/photo-1559338138-75e15eab801d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Dining area">
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Nature closeup">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Sunrise over Mount Kenya">
+                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f98b27d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Hotel balcony view">
+                <img src="https://images.unsplash.com/photo-1576091160399-21bba42815c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Spa treatment">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Guests Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"An extraordinary experience! The views of Mount Kenya from our room were breathtaking, and the service was impeccable. We felt truly welcomed and pampered throughout our stay."</p>
+                        <div class="testimonial-rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Sarah Johnson</h4>
+                            <p>Nairobi, Kenya</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"The perfect blend of luxury and nature. The guided nature walk was educational and fun, and the bonfire evening was a highlight of our trip."</p>
+                        <div class="testimonial-rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Michael Chen</h4>
+                            <p>London, UK</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"From the moment we arrived, we were treated like royalty. The attention to detail in every aspect of our stay made it truly unforgettable."</p>
+                        <div class="testimonial-rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Amina Patel</h4>
+                            <p>Mumbai, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <h2 class="section-title">Perfectly Positioned for Your Mount Kenya Adventure</h2>
+            <div class="location-content">
+                <div class="location-map">
+                    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Map showing Mt Kenya Gatepark Hotel location near Naro Moru and Mount Kenya National Park">
+                </div>
+                <div class="location-info">
+                    <h3>Our Location</h3>
+                    <p>Situated in the tranquil town of Naro Moru, our hotel provides easy access to Mount Kenya National Park through the Naro Moru Gate. We are approximately 3 hours from Nairobi by car, with scenic views throughout the journey.</p>
+                    <h4>Directions</h4>
+                    <p>From Nairobi: Take the Nairobi-Nanyuki road and turn left at Naro Moru town center. Follow signs to Mount Kenya National Park, Naro Moru Gate.</p>
+                    <h4>Accessibility</h4>
+                    <p>The hotel is accessible by both private and public transport. We offer airport transfer services from Jomo Kenyatta International Airport (NBO) upon request.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><strong>Address:</strong> Naro Moru, Kenya, Near Mount Kenya National Park</p>
+                    <p><strong>Phone:</strong> +254 700 000000</p>
+                    <p><strong>Email:</strong> info@mtkenyagatepark.com</p>
+                    <p><strong>Hours:</strong> 24/7 Front Desk Service</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Ready for an Unforgettable Stay?</h2>
+            <a href="#booking" class="btn-primary">Reserve Your Room</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h1>Mt Kenya Gatepark Hotel</h1>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#rooms">Rooms</a></li>
+                        <li><a href="#experiences">Experiences</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Information</h3>
+                    <p><strong>Address:</strong> Naro Moru, Kenya, Near Mount Kenya National Park</p>
+                    <p><strong>Phone:</strong> +254 700 000000</p>
+                    <p><strong>Email:</strong> info@mtkenyagatepark.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><span>f</span></a>
+                        <a href="#" aria-label="Instagram"><span>•</span></a>
+                        <a href="#" aria-label="Twitter"><span>t</span></a>
+                    </div>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for special offers and updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mt Kenya Gatepark Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

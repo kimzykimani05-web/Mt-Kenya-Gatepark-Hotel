@@ -1,0 +1,64 @@
+Image Sources for Mt Kenya Gatepark Hotel Website
+
+The following images are used in the website and should be replaced with actual hotel photographs for production:
+
+1. Hero Section Background: 
+   - Currently: Unsplash (Mount Kenya landscape)
+   - Replace with: High-quality image of Mount Kenya sunrise/slope view
+
+2. About Section Image:
+   - Currently: Unsplash (Hotel exterior)
+   - Replace with: Actual exterior shot of Mt Kenya Gatepark Hotel
+
+3. Room Images:
+   - Deluxe Mountain Room: Unsplash (luxury hotel room)
+   - Executive Suite: Unsplash (suite interior)
+   - Family Room: Unsplash (family room)
+   Replace with: Actual room photographs
+
+4. Mount Kenya Experience Image:
+   - Currently: Unsplash (Mount Kenya view)
+   - Replace with: Panoramic view from hotel property
+
+5. Activity Images (6 total):
+   - Mountain Excursions
+   - Nature Walks
+   - Cycling
+   - Photography Tours
+   - Local Cuisine
+   - Bonfire Evenings
+   Replace with: Actual activity photographs from the hotel
+
+6. Gallery Images (8 total):
+   - Mix of landscapes, exteriors, interiors, dining, nature, sunrise
+   Replace with: Actual gallery-worthy photographs showcasing the hotel and surroundings
+
+7. Location Map:
+   - Currently: Placeholder map image
+   - Replace with: Custom map showing hotel location relative to Mount Kenya National Park and Naro Moru
+
+8. Testimonial Images (if added later):
+   Consider adding guest photos with testimonials
+
+Recommended Sources for Actual Photography:
+- Hire a professional hospitality photographer
+- Use high-resolution images that match the luxury aesthetic
+- Ensure images are optimized for web (compressed, proper dimensions)
+- Maintain consistent color grading that aligns with the brand palette:
+  * Forest Green (#1F4D3A)
+  * Deep Pine (#2A6651)
+  * Warm Ivory (#FAF8F3)
+  * Stone Beige (#EDE6D8)
+  * Mountain Charcoal (#2C2C2C)
+  * Copper Gold (#B88646)
+  * Soft Sand (#D9C8A9)
+
+Image Optimization Guidelines:
+- Use modern formats (WebP, AVIF) where possible
+- Implement lazy loading
+- Use responsive images (srcset) for different screen sizes
+- Compress without noticeable quality loss
+- Ensure alt text is descriptive for accessibility
+
+Note: The website currently uses Unsplash placeholder images for demonstration purposes only.
+For production, replace all images with actual hotel property photographs.
