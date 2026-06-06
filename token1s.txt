@@ -1,0 +1,2 @@
+vercel token=vcp_4uJyVJFvJAtTdZv7rn8l6CzH46HcB3HzOoK63gv275auoe0zJp1gYbWA
+codex token = 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
